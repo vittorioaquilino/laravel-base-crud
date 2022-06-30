@@ -25,7 +25,10 @@
                                 <a class="nav-link" aria-current="page" href="{{ route('homepage') }}">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="{{ route('comics.index') }}">Lista fumetti</a>
+                                <a class="nav-link" aria-current="page" href="{{ route('comics.index') }}">Lista Comics</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="{{ route('comics.create') }}">Crea un nuovo comic</a>
                             </li>
                         </ul>
                     </div>
