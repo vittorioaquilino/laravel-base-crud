@@ -14,5 +14,8 @@
             <small><b>Prezzo:</b> €{{ $current_comic->price }}</small>
         </li>
     </ul>
+    <div>
+        <a class="btn btn-primary" href="{{ route('comics.edit', ['comic' => $current_comic->id]) }}">Modifica</a>
+    </div>
     
 @endsection
