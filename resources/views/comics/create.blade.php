@@ -35,7 +35,7 @@
             <input type="text" class="form-control" id="price" name="price" value="{{ old('price') }}">
         </div>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Crea comic</button>
     </form>
 </div>
 @endsection
